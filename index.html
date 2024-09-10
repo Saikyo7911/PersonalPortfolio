@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>Responsive Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+
+
+       <header class="header">
+        <a href="#home" class="logo">Aymane <span>Cherki</span></a>
+        
+        
+        <i class='bx bx-menu' id="menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+       </header>
+       
+       <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Aymane</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>A technology enthusiast passionate about new advancements, committed to expand my knowledge and sharing insights with like-minded individuals</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/aymane-cherki-95743b232/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/Saikyo7911"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/__ai__man__/"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://x.com/SAIKYO7911"><i class='bx bxl-twitter' ></i></a>
+            </div>
+
+            <div class="btn-group">
+                <!--<a href="#" class="btn">Hire</a>-->
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+            <div class="home-img">
+                <img src="Me.jpg" alt="">
+            </div>
+       </section>
+
+       <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        
+        <div class="timeline-items">
+        
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2021-2024</div>
+                <div class="timeline-content">
+                    <h3>National Institute of Posts and Telecommunications</h3>
+                    <p>Systems & Digital Services Engineering</p>
+                </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2019-2021</div>
+                <div class="timeline-content">
+                    <h3>Preparatory Classes CPGE</h3>
+                    <p>Industrial Sciences & Technology</p>
+                </div>
+            
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2019</div>
+                <div class="timeline-content">
+                    <h3>High School</h3>
+                    <p>Electrical Sciences and Technology</p>
+                </div>
+            
+        </div>
+       </section>
+       <section class="services" id="services">
+          <h2 class="heading">Projects</h2>
+          
+          <div class="services-container">
+          <div class="service-box">
+            <div class="service-info">
+                <h4>INPT Fridge Blockchain</h4>
+                <p>In this project, the fridge is shareable between all the students, each one has its own key which is provided by the Smart Contract that we created to manage each transactions , each one donate an amount of cryptocurrency to put anything inside the fridge.
+                    Tools used : Remix IDE, Ganache, MetaMask, HTML,CSS
+                    </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="service-info">
+                <h4>Smart Bin (object detection part)</h4>
+                <p>I used the YOLO v3 algorithm to train a model to detect the types of waste entering, having a dataset to compare it to the images captured by the camera attached to the trash can
+                    Tools used : Google Colab, Python, Pytorch
+                    </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="service-info">
+                <h4>Employee Management App</h4>
+                <p>This app uses CRUD method to manage the operations to bring a comfort platform for adding or deleting new employees. I create a database of employee that interact with Intellij IDEA as backend framework, and uses React as frontend to interact with users
+                    Tools used : Intellij IDEA, PostgreSQL, React
+                    </p>
+            </div>
+        </div>
+        <div class="service-box">
+            <div class="service-info">
+                <h4>Astronomical Events website</h4>
+                <p>Building a website for the upcoming astronomical events in Morocco, because the next coming years have a
+                    plenty of events, and to give more details to local people</p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="service-info">
+                <h4>Responsive Website Portfolio</h4>
+                <p>Representing my journey including skills, education, hobbies and projects in one portolio</p>
+            </div>
+        </div>
+        </div>
+
+       </section>
+       <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+       
+
+       <form action="">
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+        </div>
+
+        <div class="input-group-2">
+            <textarea name="" id="" cols="30" rows="10"
+            placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </div>
+       </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="www.linkedin.com/in/aymane-cherki-95743b232"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://x.com/SAIKYO7911"><i class='bx bxl-github' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#">Services</a>
+            </li>
+
+            <li>
+                <a href="#">About Me</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © Aymane Cherki | All Rights Reserved
+        </p>
+    </footer>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
